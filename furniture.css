@@ -1,0 +1,322 @@
+body {
+    background-color: #503C3C;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-image: url("");
+}
+
+.marquee{
+    font-size: 170%;
+    font-family: arial;
+    color: #ffffff;
+
+    }
+
+.nav {
+    /* position: sticky; */
+    top: 0;
+    display: flex;
+    background-color: #070b11;
+    justify-content: space-between;
+}
+
+.formtag {
+    display: flex;
+    height: 35px;
+    margin: auto;
+}
+
+.logo {
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+.locationtag {
+
+    align-items: center;
+    margin: auto;
+}
+
+.loginbutton {
+    margin-top: 60px;
+}
+
+.loginbutton button {
+    height: 35px;
+}
+
+.search button {
+    height: 35px;
+    margin-left: -3px;
+}
+
+select#location {
+    height: 35px;
+    width: 85px;
+}
+
+input[type="text"] {
+    width: 400px;
+}
+
+/* nav bar end  */
+
+.nameorimage {
+    display: flex;
+    background-image: url('file:///C:/Users/JAYESH/Pictures/Camera%20Roll/images.jpg');
+    margin-top: -19px;
+    height: 450px;
+}
+
+.brandname {
+    color: #ffffff;
+    margin-top: 62px;
+    font-size: 500%;
+    font-style: italic;
+}
+
+.almirah {
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-left: 120px;
+}
+
+/* brand name or image end */
+.category {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.schoolfurniture {
+    background-color: #070b11;
+    height: 200px;
+    width: 240px;
+    text-align: center;
+    font-size: 130%;
+    font-family: arial;
+}
+
+.schoolfurniture:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 8px 10px #070b11;
+}
+.schools{color: #ffffff;}
+.homes{color: #ffffff;}
+.offices{color: #ffffff;}
+.hospitals{color: #ffffff;}
+
+
+.homefurniture {
+    background-color: #070b11;
+    height: 200px;
+    width: 240px;
+    text-align: center;
+    font-size: 130%;
+    font-family: arial;
+}
+
+.homefurniture:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 8px 10px #070b11;
+}
+
+
+.officefurniture {
+    background-color: #070b11;
+    height: 200px;
+    text-align: center;
+    width: 240px;
+    font-size: 130%;
+    font-family: arial;
+}
+
+.officefurniture:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 8px 10px #070b11;
+}
+
+
+.hospitalfurniture {
+    background-color: #070b11;
+    height: 200px;
+    width: 240px;
+    font-size: 130%;
+    text-align: center;
+    font-family: arial;
+}
+
+.hospitalfurniture:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 8px 10px #070b11;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* all hover end */
+
+
+
+.slider{
+    background-image: url("file:///C:/Users/JAYESH/Pictures/Camera%20Roll/images.jpg");
+    display: flex;
+    justify-content: center;
+    
+}
+
+.slider img{
+    box-shadow: 0px 0px 12px beige;
+}
+
+
+/* footer */
+.footer {
+    color: #a497ce;
+    background-color: #17191c;
+    width: 100%;
+    height: 300px;
+    cursor: default;
+}
+
+.footerbrand {
+    font-family: arial;
+    margin-left: 10px;
+    font-size: 300%;
+
+}
+
+.contactno {
+    margin-left: 10px;
+    font-size: 110%;
+}
+
+.location {
+    margin-left: 10px;
+    font-size: 110%;
+}
+
+.available {
+    margin-left: 10px;
+    font-size: 110%;
+}
+
+.email {
+    margin-left: 10px;
+    font-size: 110%;
+}
+
+.business {
+    margin-left: 10px;
+    font-size: 110%;
+}
+
+/* icons logo */
+
+.iconslogo {
+    display: flex;
+}
+
+.facebook {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    margin-left: 626px;
+    margin-top: -200px;
+    border-radius: 6px;
+}
+
+.instagram {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    margin-top: -200px;
+    border-radius: 6px;
+}
+
+.twitter {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    margin-top: -200px;
+    border-radius: 6px;
+}
+
+.youtube {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    margin-top: -200px;
+    border-radius: 6px;
+}
+
+.google {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    margin-top: -200px;
+    border-radius: 6px;
+}
+
+/* icons end */
+
+.aftericons {
+    display: flex;
+}
+
+.homefooter {
+    margin-top: -95px;
+    margin-left: 612px;
+    font-size: 110%;
+
+}
+
+.newsfooter {
+    font-size: 110%;
+    margin-top: -95px;
+}
+
+.aboutfooter {
+    margin-top: -95px;
+    font-size: 110%;
+}
+
+.contactusfooter {
+    margin-top: -95px;
+    font-size: 110%;
+
+}
+
+.ourteamfooter {
+    font-size: 110%;
+    margin-top: -95px;
+}
+
+
+/* slider image */
+
+.slider{
+    margin-top: 0px;
+    background-image: url("file:///C:/Users/JAYESH/Pictures/Camera%20Roll/images.jpg");
+   
+}
+.slider img{
+    box-shadow: 0px 0px 15px #ffffd3;
+}
+
+/* Slider Image End */
+
+
+
